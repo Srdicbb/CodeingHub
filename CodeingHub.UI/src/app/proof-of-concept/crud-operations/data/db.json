@@ -1,0 +1,31 @@
+{
+  "crypto-coin": [
+    {
+      "ranking": 1,
+      "name": "Bitcoin",
+      "price": 52125,
+      "marketCap": 1000475568464,
+      "volume": 20719161395,
+      "cirkularSuply": 21000000,
+      "symbol": "BTC"
+    },
+    {
+      "ranking": 2,
+      "name": "Ethereum",
+      "price": 52125,
+      "marketCap": 1000475568464,
+      "volume": 20719161395,
+      "cirkularSuply": 21000000,
+      "symbol": "ETH"
+    },
+    {
+      "ranking": 3,
+      "name": "Matic",
+      "price": 52125,
+      "marketCap": 1000475568464,
+      "volume": 20719161395,
+      "cirkularSuply": 21000000,
+      "symbol": "MATIC"
+    }
+  ]
+}
