@@ -1,0 +1,32 @@
+<p>home works!</p>
+
+
+<div class="dashboard">
+    <h1>Dobrodošli!</h1>
+    <div class="icon-grid">
+      <a routerLink="/nourishment" class="icon-card">
+        <img src="assets/icons/nutrition.svg" alt="Ishrana" />
+        <span>Nourishment</span>
+      </a>
+
+      <a routerLink="/wallet" class="icon-card">
+        <img src="assets/icons/wallet.svg" alt="Wallet" />
+        <span>Wallet</span>
+      </a>
+
+      <a routerLink="/coding" class="icon-card">
+        <img src="assets/icons/wallet.svg" alt="Coding" />
+        <span>Coding</span>
+      </a>
+      <button (click)="clickMe()">{{title}}</button>
+      <p>{{text}}</p>
+    </div>
+  </div>
+
+  <!-- Second implemetnation -->
+
+  <!-- <div class="icon-container">
+    <button (click)="goTo('nourishment')">🥗 Nourishment</button>
+    <button (click)="goTo('wallet')">💼 Wallet</button>
+    <button (click)="goTo('coding')">💻 Coding</button>
+  </div> -->

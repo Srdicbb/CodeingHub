@@ -1,0 +1,46 @@
+<div *ngIf="isHomePage" class="icon-nav">
+  <a routerLink="/page1" class="icon-btn" aria-label="Page 1">
+    <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="10" stroke="#333" stroke-width="2" />
+      <path
+        d="M12 8v4l3 3"
+        stroke="#333"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+  </a>
+  <a routerLink="/page2" class="icon-btn" aria-label="Page 2">
+    <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
+      <rect
+        x="4"
+        y="4"
+        width="16"
+        height="16"
+        rx="4"
+        stroke="#333"
+        stroke-width="2"
+      />
+      <path d="M8 12h8" stroke="#333" stroke-width="2" stroke-linecap="round" />
+    </svg>
+  </a>
+  <a routerLink="/page3" class="icon-btn" aria-label="Page 3">
+    <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
+      <polygon
+        points="12,4 20,20 4,20"
+        stroke="#333"
+        stroke-width="2"
+        fill="none"
+      />
+      <path
+        d="M12 10v4"
+        stroke="#333"
+        stroke-width="2"
+        stroke-linecap="round"
+      />
+    </svg>
+  </a>
+</div>
+<router-outlet />
+<button (click)="onButtonClick()">{{ buttonText }}</button>
